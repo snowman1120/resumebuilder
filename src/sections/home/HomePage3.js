@@ -25,11 +25,15 @@ const RootStyle = styled('div')(({ theme }) => ({
 const Sumary = [
   {
     id:"Sumary",
-    title:'Jackson Liang',
+    title:'Matthew Marron',
     description:[
-      "Expert in software development with 7 years of contributions in various projects.",
-      "I strive to focus on the delivery of high-quality products and work.",
-      "I think that an employee's honesty is an important as one's skill, in hiring and building relationships.",  "Until now, it was my philosophy to keep honestly in the contract with my clients."
+      '',
+      `Experienced IT and Software Development professional with over 10 years in the industry, specializing in the .NET framework and adept at delivering robust solutions for large enterprises. 
+      Proven expertise spans system analysis, technical leadership, and project management, with a focus on developing intricate applications for diverse sectors including ERP, healthcare, finance, HR, banking, e-commerce, inventory, and accounting.
+      Proficient in data migration, technical documentation, UML designing, application architecture, and well-versed in Agile practices, test-driven development, and software engineering design patterns, holding certifications as a Microsoft Certified Professional Developer (MCPD) and Microsoft Certified Technology Specialist (MCTS).`
+      // "Expert in software development with 7 years of contributions in various projects.",
+      // "I strive to focus on the delivery of high-quality products and work.",
+      // "I think that an employee's honesty is an important as one's skill, in hiring and building relationships.",  "Until now, it was my philosophy to keep honestly in the contract with my clients."
     ],
     type:'order1',
     time:''
@@ -38,10 +42,10 @@ const Sumary = [
 const Education = [
   {
     id:"Education",
-    title:'Bachelor of Computer Science',
+    title: "Bachelor's Degree in Computer Science",
     description:[
-      "From 2012 to 2016",
-      "HUAZHONG UNIVERSITY OF SCIENCE AND TECHNOLOGY Guanshan Subdistrict, Hongshan District, Wuhan, Hubei province",
+      "From 2009 to 2013",
+      "Drexel University",
       "Relevant Coursework: OS Architecture, Linux/Unix Programming, Usability in Website and Software Design, C++ Programming, Web Development, Database Design & SQL, Data Engineering, Advanced Software Programming",
     ],
     type:'order1',
@@ -50,41 +54,85 @@ const Education = [
 ]
 const Experience = [
   {
-    id:"Metaverse Developer",
-    title:'Metaverse Developer',
+    id:".NET Full Stack Engineer and Senior Software Engineer in Membersy",
+    title:'.NET Full Stack Engineer and Senior Software Engineer in Membersy',
     description:[
-      "From November 2020 to December 2022 Dragon Trail China",
-      "● Implemented some of metaverse project with a deep understand about augmented, virtual and mixed reality and strong algorithm logic",
-      "● Excelled a good WebXR technologies and SDK experience for Metaverse development",
-      "● Have good computer graphics, animation and game development experience",
-      "● Always brought good ideas and solutions to the team with creative vision and thinking",
+      "01/2020 – 10/2023",
+      "● Involved in the development of a Membership Management System and Community Health Outreach Program using C#, .NET and React / TypeScript for frontend.",
+      "● Designed and developed Microservice architecture with ASP.NET, Node JS 18 and Django based services interacting through a combination of RESTful and Apache Kafka message brokers.",
+      "● Developed a robust healthcare management system using ASP.NET MVC and Entity Framework, leveraging my expertise in full-stack development.",
+      "● Utilized Entity Framework for seamless integration with a SQL Server database, optimizing data retrieval and manipulation processes.",
+      "● Reduced system downtime by +13% and decreased the number of support tickets by 22% after revamping a 20-year-old software suite comprising two Classic ASP applications and 5 .NET 2.0 WinForms applications.",
+      "● Developed a modern software suite in .NET 6 with Azure Serverless Architecture with an React frontend, resulting in a +29% improvement in system performance, as evidenced by a 23% reduction in response times and a 17% increase in system reliability.",
+      "● Involved in Design, Development and Testing of Windows Forms, Web Forms and Web Services using IIS, ASP.NET, XML Dataset and .NET Framework.",
+      "● Optimized database performance by fine-tuning SQL queries, indexing tables, and implementing query caching techniques.",
+      "● Created a Time and Budgeting system for a large construction company utilizing Blazor, ASP.Net Core, SQL Server, and C# Implemented a secure patient portal using React / TypeScript, enhancing user experience and ensuring HIPAA compliance through robust type-checking and structured component architecture.",
+      "● Created Typescript reusable components and services to consume REST API's using Component-based architecture provided by React Worked with advance web development technologies like React, Node, Express, MongoDB, MySQL, ECh IAScript 6, Typescript, JavaScript, Immutable, P3thozt Bootstrap 4, CSS, HTML, JavaScript Object Notation.",
+      "● Led the implementation of a robust Simple Query and Reply System (SQRS) using Azure Service Bus in a healthcare project, enabling seamless communication between diverse components, ensuring real-time data retrieval and processing for critical patient information.",
+      "● Collaborated with cross-functional teams to integrate MongoDB / Cosmos with the project's .NET backend and frontend components, fostering a cohesive and efficient development process.",
+      "● Implemented secure and efficient microservices architecture by deploying Azure Functions, including leveraging Azure Durable Functions to orchestrate complex workflows, ensuring seamless scalability to accommodate varying workloads and enhancing the project's overall efficiency and responsiveness.",
+      "● Secured access to patient data with Azure Active Directory, reducing security threats by 20%, and utilized Azure Synapse Analytics and Power BI for data analytics, enhancing decision-making processes in patient care.",
+      "● Implemented Apache Spark for processing large-scale healthcare data stored in Azure Blob Storage, optimizing data analytics workflows for a healthcare project. Leveraged Spark's distributed computing capabilities to efficiently analyze and extract valuable insights from diverse medical datasets, enhancing decision-making processes and contributing to improved patient outcomes.",
+      "● Integrated GraphQL for efficient database management in a healthcare project on Azure DevOps, orchestrating seamless collaboration among development, operations, and testing teams, resulting in enhanced data accessibility and streamlined workflows.",
+      "● Implemented data analytics and reporting features using Pandas and Matplotlib to derive insights and enable data-driven decision-making for the healthcare client.",
+      "● Used GitLab for source control, data collection, reporting, and project tracking. Maintained Source Code, created pull requests, performed self and Peer Code Reviews and created branches by using GIT, Source Tree",
+      "● Implemented CI/CD pipelines using Jenkins and Docker, streamlining development and release cycles.",
+      "● Conducted manual testing using tools such as JIRA and TestRail to create and execute test cases, track defects, and manage test documentation.",
+      "● Introduced the Scrum process for a new team, scaling it up from 10 developers to a robust team comprising 20 developers, two QA engineers, an architect, and a scrum master, resulting in a 28% faster project delivery.",
+      // "● Implemented some of metaverse project with a deep understand about augmented, virtual and mixed reality and strong algorithm logic",
+      // "● Excelled a good WebXR technologies and SDK experience for Metaverse development",
+      // "● Have good computer graphics, animation and game development experience",
+      // "● Always brought good ideas and solutions to the team with creative vision and thinking",
     ],
     type:'order1',
     time:''
   },
   {
-    id:"WebGL Expert",
-    title:'WebGL Expert',
+    id:"Full Stack .NET Developer in TEKsystems / Comcast",
+    title:'Full Stack .NET Developer in TEKsystems / Comcast',
     description:[
-      "From January 2019 to October 2020 campoallecomete Italy",
-      "● Implemented great 3D scenes and animations using 3D library.",
-      "● Created a web virtual showroom where user can experience and enjoy products in a new environment.",
-      "● Excelled in using camera, lights, geometry, materials, particles, shaders, physics and animations with libraries like WebGL, Three.js, Babylon.js,GLSL",
-      "● Experience in optimizing 3D modeling and textures for web performance.",
+      "07/2015 – 11/2019",
+      "● Involved in the development of a custom B2B e-commerce platform using various frameworks (ASP.NET Angular and React) , providing a seamless ordering process for wholesale customers.",
+      "● Developed and deployed XPF Batch scripts in an e-commerce environment, automating data extraction, transformation, and loading processes, thereby achieving seamless integration between disparate systems and ensuring real-time inventory updates for a dynamic product catalog.",
+      "● Built a real-time messaging service using MongoDB and ASP.NET, facilitating interactive communication among users during live sessions and boosting user engagement by 31%",
+      "● Worked on an interactive map portal that displayed information about media appliance failures written in .NET Core and React, improving issue visibility by 26% and enabling faster response times.",
+      "● Implemented reusable React and Vue JS components to create a modular and scalable frontend architecture.",
+      "● Implemented real-time analytics using TypeScript and Angular, leading to a 11% improvement in data-driven decision-making for clients and stakeholders.",
+      "● Created REST APIs and utilized Windows Communication Framework (WCF) services for seamless data exchange, improving system interoperability by 23%.",
+      "● Designed and executed SQL Database Schema, procedures, and functions, providing stakeholders with detailed employee training status information and achieving a 9% increase in data-driven insights",
+      "● Experience in SQL Server Database design developing T—SQL queries, functions, stored procedures, and triggers using SQL Server and used Data Adapter, Dataset, Data Correction, Data Command, and Data reader as a part of ADO.NET to access and update the database in ASP.NET environment.",
+      "● Experienced in developing Windows-based and web-based applications using .NET technologies such as C#, VB.NET, ASP.NET, ADO.NET, win forms, Server controls, web services, .NET Framework, HTML/XHTML,  DHTML, CSS, and IIS.",
+      "● Developed an algorithmic trading system using Python, implementing high-frequency trading strategies and optimizing trade execution algorithms for one of our financial clients",
+      "● Built responsive pages on frontend frameworks like React, and Vue JS with Tailwind CSS, Headless UI, and other tools to create visually appealing and user-friendly interfaces.",
+      "● Oversaw the ETL processes, including data extraction, transformation, and loading from various operational systems into the data warehouse.",
+      "● Worked in a wide-area network to maintain all the device related data into PostgreSQL, Amazon RDS and Oracle database.",
+      "● Leveraged AWS services, such as AWS Lambda and Amazon S3, for scalable infrastructure and storage of data, ensuring high availability and performance.",
+      "● Implemented AWS deployment strategies, including using AWS Elastic Beanstalk and Amazon CloudFront for efficient application delivery.",
+      "● Developed and executed test plans and test cases to validate the accuracy and completeness of ETL processes.",
+      "● Proposed and implemented various DevOps methodologies and tools to automate and optimize their processes. This included implementing continuous integration and continuous deployment (CI/CD) pipelines using tools like Jenkins, and GitLab.",
+      "● Containerized and orchestrated microservices using Docker, Kubernetes, and Apache Kafka.",
+      "● Developed and trained Deep learning models using frameworks like TensorFlow or PyTorch, applying techniques such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs) for image recognition.",
+      "● Implemented Azure Virtual Networks, Subnets, and Network Security Groups (NSGs) to establish secure network connectivity.",
+      "● Configured and managed Azure Virtual Machines (VMs) for various operating systems, including Windows and Linux.",
+      "● Implemented all components using Test-Driven Development (TDD) methodology with JUnit, ensuring high quality code and efficient development.",
     ],
     type:'order1',
     time:''
   },
   {
-    id:"Full Stack Developer",
-    title:'Full Stack Developer',
+    id:"C# (.NET) Developer in AGI (Analytical Graphics, Inc.) / Mythical Games",
+    title:'C# (.NET) Developer in AGI (Analytical Graphics, Inc.) / Mythical Games',
     description:[
-      "From March 2015 to December 2018 Freelancer (Remote)",
-      "● Full stack web developer responsible for end-to-end web app development and creative cloud engineering.",
-      "● Developed an ecommerce web app, healthcare site, real-estate website, customer web portal, documentary launch website, etc.",
-      "● Implemented structured coding style & simply page content and designed optimized database & backend API. So decreased rework by 15% and costs by 12%.",
-      "● Excelled in user experience and user interfaces.",
-      "● Implement tasks in accordance with schedule budget goals.",
+      "05/2013 – 06/2015",
+      "● Implemented a Scrum development process with one-week iterations, resulting in a 20% increase in development speed and a 15% reduction in project delivery times.",
+      "● Leveraged UI expertise in AngularJS to troubleshoot existing UI issues and develop new user-friendly forms, leading to a 28% improvement in user satisfaction.",
+      "● Optimized the data access layer, reducing its size by 50%, resulting in a 13% improvement in data retrieval performance and a 18% reduction in database load times.",
+      "● Consolidated multiple BL (Business Logic) class libraries into a single reusable library, reducing maintenance efforts by 28% and improving code reuse by 22%.",
+      "● Introduced automated end-to-end (E2E) testing, which increased test coverage by 32%, reduced the number of software defects by 18%, and improved software quality.",
+      "● Enhanced user experience (UX) with AngularJS, HTML5, and CSS, resulting in a 22% increase in user engagement and a 17% improvement in user retention.",
+      "● Implemented a real-time messaging service using MongoDB and ASP.NET, facilitating seamless communication between users during live sessions, resulting in a 32% boost in user interaction and engagement",
+      "● Developed business components using C#, WCF, BizTalk, and Entity Framework",
+
     ],
     type:'order1',
     time:''
@@ -112,7 +160,7 @@ export default function HomePage3() {
         </m.div>
       </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={6} lg={6}
+          <Grid item xs={12}
             sx={{
             '& .MuiTimelineItem-missingOppositeContent:before': {
               display: 'none',
@@ -143,7 +191,7 @@ export default function HomePage3() {
                 </Timeline>
               </m.div>
           </Grid>
-          <Grid item xs={12} md={6} lg={6}
+          <Grid item xs={12}
             sx={{
               '& .MuiTimelineItem-missingOppositeContent:before': {
                 display: 'none',

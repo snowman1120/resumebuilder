@@ -38,18 +38,21 @@ const _skills_frontend = [
   {label:"SCSS",value:80},
 ]
 const _skills_backend = [
-  {label:"PHP",value:95},
-  {label:"Laravel",value:95},
-  {label:"CodeIgniter",value:90},
-  {label:"Node.js",value:90},
+  {label:"C# / Python / Node JS",value:95},
+  {label:"ASP.NET / C#.NET / ADO.NET",value:95},
+  {label:"SQL/ Python / PySpark",value:95},
   {label:"Express.js",value:95},
+  {label:"MongoDB / Couchbase / Cosmos",value:90},
+  {label:"REST APIs / Web API",value:90},
+  {label:".Net Framework 6/4.5/4.0 / C# / ASP.NET MVC 5.0",value:90},
+  {label:"Selenium / JUnit",value:80},
+  {label:"Jenkins / JUnit / Mockito / Cosmos",value:80},
+  {label:"AWS S3 / EC2 / Lambda / RDS / EKS",value:80},
+  {label:"Azure Virtual Machines (VMs)",value:65},
   {label:"Python/Django/Flask",value:60},
-  {label:"Spring Boot",value:65},
-  {label:"MySQL",value:95},
-  {label:"MongoDB",value:80},
 ]
 const _skills_devops = [
-  {label:"Github",value:95},
+  {label:"Docker / Kubernetes",value:95},
   {label:"Webpack",value:70},
   {label:"Docker",value:60},
   {label:"AWS",value:80},
@@ -112,12 +115,12 @@ export default function HomePage2() {
           <Grid item xs={12} md={7} lg={7}>
             <m.div variants={varFade().inRight}>
               <Typography variant="h3" sx={{ mb: 3 }}>
-              Full stack Web Developer
+              Senior .NET Full Stack Enginee
               </Typography>
               <Typography variant="subtitle1" sx={{ mb: 3 }}>
               Talented senior software engineer with a B.S in Computer Science.
               <br/>
-              Worked on various projects over the last 7 years.
+              Worked on various projects over the last 10 years.
               </Typography>
             </m.div>
 
@@ -127,7 +130,7 @@ export default function HomePage2() {
                   color: (theme) => (theme.palette.mode === 'light' ? 'text.secondary' : 'common.white'),
                 }}
               >
-                I've been working in software engineering for 7+ years and I'm constantly looking
+                I've been working in software engineering for over 10 years and I'm constantly looking
                 for innovative solutions to everyday problems.<br/>
                 Able to work well and collaborate with others on a team of Designers, Developers,
                 and Programmers using effective interpersonal skills.<br/>
@@ -149,12 +152,12 @@ export default function HomePage2() {
                   <Grid item xs={12} md={6} lg={6} sx={{padding:'10px'}}>
                     <m.div variants={varFade().inRight}>
                       <Typography variant="h3" sx={{ mb: 3 }}>
-                        Front End
+                        Back End
                       </Typography>
                     </m.div>
 
                     <Box sx={{ my: 5 }}>
-                      {_skills_frontend.map((progress) => (
+                      {_skills_backend.map((progress) => (
                         <m.div key={progress.label} variants={varFade().inRight}>
                           <ProgressItem progress={progress} />
                         </m.div>
@@ -164,12 +167,12 @@ export default function HomePage2() {
                   <Grid item xs={12} md={6} lg={6} sx={{padding:'10px'}}>
                     <m.div variants={varFade().inRight}>
                       <Typography variant="h3" sx={{ mb: 3 }}>
-                        Back End
+                        Front End
                       </Typography>
                     </m.div>
 
                     <Box sx={{ my: 5 }}>
-                      {_skills_backend.map((progress) => (
+                      {_skills_frontend.map((progress) => (
                         <m.div key={progress.label} variants={varFade().inRight}>
                           <ProgressItem progress={progress} />
                         </m.div>
@@ -193,7 +196,7 @@ export default function HomePage2() {
                       ))}
                     </Box>
                   </Grid>
-                  <Grid item xs={12} md={6} lg={6} sx={{padding:'10px'}}>
+                  {/* <Grid item xs={12} md={6} lg={6} sx={{padding:'10px'}}>
                     <m.div variants={varFade().inRight}>
                       <Typography variant="h3" sx={{ mb: 3 }}>
                         Blockchain
@@ -207,7 +210,7 @@ export default function HomePage2() {
                         </m.div>
                       ))}
                     </Box>
-                  </Grid>
+                  </Grid> */}
                 </Grid>
               </CardContent>
 

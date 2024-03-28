@@ -22,23 +22,23 @@ const CONTACTS = [
   {
     name: 'Email',
     icon: 'fa-envelope',
-    address: 'maximum95628@gmail.com',
+    address: 'buenaventuraweiler@gmail.com',
   },
-  {
-    name: 'Skype',
-    icon: 'fa-skype',
-    address: 'live:.cid.87867a3f9abed42c',
-  },
-  {
-    name: 'Telegram',
-    icon: 'fa-telegram',
-    address: 'https://t.me/Maximum628',
-  },
-  {
-    name: 'Github',
-    icon: 'fa-github',
-    address: 'https://github.com/maximum628',
-  },
+  // {
+  //   name: 'Skype',
+  //   icon: 'fa-skype',
+  //   address: 'live:.cid.87867a3f9abed42c',
+  // },
+  // {
+  //   name: 'Telegram',
+  //   icon: 'fa-telegram',
+  //   address: 'https://t.me/Maximum628',
+  // },
+  // {
+  //   name: 'Github',
+  //   icon: 'fa-github',
+  //   address: 'https://github.com/maximum628',
+  // },
 ];
 // ----------------------------------------------------------------------
 
@@ -151,7 +151,7 @@ export default function HomePage1() {
                               <m.div className="immigration__pre-loader__copy">
                                 
                               <m.img style={{width:'200px', margin:'auto'}} src="/favicon/android-chrome-512x512.png"/>
-                                Full Stack Web Developer
+                                Senior .NET Full Stack Enginee
                               </m.div>
                           </m.div>
                           <m.div className="immigration__progress_loader">
@@ -172,8 +172,8 @@ export default function HomePage1() {
                   <m.div className="videocaption">
 
                     <m.div className="videotext aos-init aos-animate" data-aos="fade-up">
-                      <m.div style={{color:'#fff',fontSize:'2em'}}>Jackson Liang</m.div>
-                      <Typography variant={isDesktop ? "h1" : "h2"}>Full Stack Web Developer</Typography>
+                      <m.div style={{color:'#fff',fontSize:'2em'}}>Matthew Marron</m.div>
+                      <Typography variant={isDesktop ? "h1" : "h2"}>Senior .NET Full Stack Enginee</Typography>
                       <Grid container spacing={5} sx={{ mt: 5, color: 'common.white',justifyContent:'center' }}>
                         {CONTACTS.map((contact) => (
                           <Grid key={contact.country} item xs={12} sm={6} md={3} lg={2} sx={{ pr: { md: 5 } }}>

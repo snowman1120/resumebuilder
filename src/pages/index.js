@@ -38,7 +38,7 @@ HomePage.getLayout = function getLayout(page) {
 
 export default function HomePage() {
   return (
-    <Page title="Jackson Liang">
+    <Page title="Matthew Marron">
       <HomePage1 />
 
       <ContentStyle>

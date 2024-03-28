@@ -31,20 +31,20 @@ const SOCIALS = [
     name: 'Email',
     icon: 'fa-envelope',
     socialColor: '#fff',
-    path: 'maximum95628@gmail.com',
+    path: 'buenaventuraweiler@gmail.com',
   },
-  {
-    name: 'Skype',
-    icon: 'fa-skype',
-    socialColor: '#fff',
-    path: 'live:.cid.87867a3f9abed42c',
-  },
-  {
-    name: 'Telegram',
-    icon: 'fa-telegram',
-    socialColor: '#fff',
-    path: 'https://t.me/Maximum628',
-  },
+  // {
+  //   name: 'Skype',
+  //   icon: 'fa-skype',
+  //   socialColor: '#fff',
+  //   path: 'live:.cid.87867a3f9abed42c',
+  // },
+  // {
+  //   name: 'Telegram',
+  //   icon: 'fa-telegram',
+  //   socialColor: '#fff',
+  //   path: 'https://t.me/Maximum628',
+  // },
 ];
 
 const header_color = 'linear-gradient(145deg, #e95151,#FF0800,#FF0800, #e95151)';

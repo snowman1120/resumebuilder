@@ -4,21 +4,7 @@ export const blogs = [
   {
     cover:'/assets/images/home/react.png',
     createdAt:'Nov 01, 2022 12:36 PM ET | Last Updated: November 2',
-    title:'React Project',
-    body:''
-  },
-  {
-    cover:'/assets/images/home/nextjs.png',
-    createdAt:'',
-    title:'Next.js Project',
-    url:'https://www.ctvnews.ca/politics/feds-reveal-plan-to-welcome-500-000-immigrants-per-year-by-2025-1.6133962',
-    body:''
-  },
-  {
-    cover:'/assets/images/home/angular.png',
-    createdAt:'',
-    title:'Angular Project',
-    url:'https://www.ctvnews.ca/politics/feds-reveal-plan-to-welcome-500-000-immigrants-per-year-by-2025-1.6133962',
+    title:'ASP.NET Core Project',
     body:''
   },
   {
