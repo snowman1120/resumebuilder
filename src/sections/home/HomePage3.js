@@ -54,15 +54,23 @@ const Education = [
 ]
 const Experience = [
   {
-    id:".NET Full Stack Engineer and Senior Software Engineer in Membersy",
-    title:'.NET Full Stack Engineer and Senior Software Engineer in Membersy',
-    description:[
-      "01/2020 – 10/2023",
+    id: 'Senior Software Engineer in Winwire / Gilead',
+    title: 'Senior Software Engineer in Winwire / Gilead',
+    description: [
+      "02/2024 – present",
+      "● Improved user / manager experience in Absorb LMS system by applying Okta Universal Directory for user registration",
       "● Involved in the development of a Membership Management System and Community Health Outreach Program using C#, .NET and React / TypeScript for frontend.",
       "● Designed and developed Microservice architecture with ASP.NET, Node JS 18 and Django based services interacting through a combination of RESTful and Apache Kafka message brokers.",
       "● Developed a robust healthcare management system using ASP.NET MVC and Entity Framework, leveraging my expertise in full-stack development.",
       "● Utilized Entity Framework for seamless integration with a SQL Server database, optimizing data retrieval and manipulation processes.",
       "● Reduced system downtime by +13% and decreased the number of support tickets by 22% after revamping a 20-year-old software suite comprising two Classic ASP applications and 5 .NET 2.0 WinForms applications.",
+    ]
+  },
+  {
+    id:".NET Full Stack Engineer and Senior Software Engineer in Membersy",
+    title:'.NET Full Stack Engineer and Senior Software Engineer in Membersy',
+    description:[
+      "01/2020 – 10/2023",
       "● Developed a modern software suite in .NET 6 with Azure Serverless Architecture with an React frontend, resulting in a +29% improvement in system performance, as evidenced by a 23% reduction in response times and a 17% increase in system reliability.",
       "● Involved in Design, Development and Testing of Windows Forms, Web Forms and Web Services using IIS, ASP.NET, XML Dataset and .NET Framework.",
       "● Optimized database performance by fine-tuning SQL queries, indexing tables, and implementing query caching techniques.",
