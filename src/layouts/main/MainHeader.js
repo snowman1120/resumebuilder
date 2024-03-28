@@ -83,7 +83,7 @@ export default function MainHeader() {
 
           <Link href="/" target="_blank" rel="noopener" underline="none" style={{display:'flex'}}>
             <Logo />
-            <Typography variant={"h3"} sx={{marginLeft:'15px',color:'white'}}>Senior .NET Full Stack Enginee</Typography>
+            <Typography variant={"h3"} sx={{marginLeft:'15px',color:'white'}}>Senior .NET Full Stack Engineer</Typography>
           </Link>
 
           <Box sx={{ flexGrow: 1 }} />

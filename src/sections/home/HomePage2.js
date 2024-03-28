@@ -115,7 +115,7 @@ export default function HomePage2() {
           <Grid item xs={12} md={7} lg={7}>
             <m.div variants={varFade().inRight}>
               <Typography variant="h3" sx={{ mb: 3 }}>
-              Senior .NET Full Stack Enginee
+              Senior .NET Full Stack Engineer
               </Typography>
               <Typography variant="subtitle1" sx={{ mb: 3 }}>
               Talented senior software engineer with a B.S in Computer Science.
