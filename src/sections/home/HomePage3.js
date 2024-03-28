@@ -22,9 +22,9 @@ const RootStyle = styled('div')(({ theme }) => ({
     textAlign: 'left',
   },
 }));
-const Sumary = [
+const Summary = [
   {
-    id:"Sumary",
+    id:"Summary",
     title:'Matthew Marron',
     description:[
       '',
@@ -54,7 +54,7 @@ const Education = [
 ]
 const Experience = [
   {
-    id: 'Senior Software Engineer in Winwire / Gilead',
+    id: 'Senior Software Engineer in Winwire (TriNet) / Gilead',
     title: 'Senior Software Engineer in Winwire / Gilead',
     description: [
       "02/2024 – present",
@@ -176,13 +176,13 @@ export default function HomePage3() {
               <m.div>
                 <m.div variants={varFade().inRight}>
                   <Typography variant="h3" sx={{ mb: 3 }}>
-                    Sumary
+                    Summary
                   </Typography>
                 </m.div>
 
                 <Timeline>
-                  {Sumary.map((item, index) => (
-                    <OrderItem key={item.id} item={item} isLast={index === Sumary.length - 1} />
+                  {Summary.map((item, index) => (
+                    <OrderItem key={item.id} item={item} isLast={index === Summary.length - 1} />
                   ))}
                 </Timeline>
               </m.div>
@@ -194,7 +194,7 @@ export default function HomePage3() {
                 </m.div>
                 <Timeline>
                   {Education.map((item, index) => (
-                    <OrderItem key={item.id} item={item} isLast={index === Sumary.length - 1} />
+                    <OrderItem key={item.id} item={item} isLast={index === Summary.length - 1} />
                   ))}
                 </Timeline>
               </m.div>
@@ -212,7 +212,7 @@ export default function HomePage3() {
             <m.div>
               <Timeline>
                 {Experience.map((item, index) => (
-                  <OrderItem key={item.id} item={item} isLast={index === Sumary.length - 1} />
+                  <OrderItem key={item.id} item={item} isLast={index === Summary.length - 1} />
                 ))}
               </Timeline>
             </m.div>
